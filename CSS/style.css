@@ -1,5 +1,5 @@
 body {
-  background-color: aquamarine;
+  background-color: rgb(92, 194, 170);
 }
 
 * {
@@ -11,7 +11,7 @@ body {
 .banner {
   width: 100%;
   height: 100vh;
-  background-image: url(/Photos/background.png);
+  background-image: url("../Photos/background.png");
   background-size: cover;
   background-position: center;
 }
