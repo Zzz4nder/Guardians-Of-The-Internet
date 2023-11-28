@@ -10,8 +10,8 @@
 @media screen and (max-width: 600px) {
   .content {
     width: 100%;
-    position: absolute;
-    top: 55%;
+    position: relative;
+    top: 35%;
     transform: translateY(-50%);
     text-align: center;
     color: #fff;
