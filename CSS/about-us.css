@@ -1,0 +1,34 @@
+h1 {
+  text-align: center;
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 25px;
+  justify-content: center;
+}
+.members {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .members {
+    flex-direction: row; /* Change to horizontal direction for smaller screens */
+    justify-content: center;
+  }
+}
+
+.members img {
+  width: 200px;
+  height: auto;
+  border-radius: 100%;
+  display: block;
+}
+.members p {
+  text-align: center;
+  display: block;
+  font-size: larger;
+}

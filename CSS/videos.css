@@ -1,0 +1,14 @@
+.vid {
+  width: 800px;
+  height: 450px;
+
+  position: relative;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+  .vid {
+    width: 400px;
+    height: 225px;
+  }
+}
