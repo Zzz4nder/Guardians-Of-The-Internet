@@ -9,6 +9,8 @@
 
 @media screen and (max-width: 600px) {
   .content {
+    margin-top: 20px;
+    padding-top: 20px;
     width: 100%;
     position: relative;
     top: 35%;
